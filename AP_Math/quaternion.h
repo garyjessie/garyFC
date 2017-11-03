@@ -22,6 +22,8 @@
 #include <assert.h>
 #endif
 
+using namespace std;
+
 class Quaternion {
 public:
     float        q1, q2, q3, q4;

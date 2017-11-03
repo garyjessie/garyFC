@@ -1,0 +1,9 @@
+/home/gary/garyData/fc/garyFC/build/CMakeFiles/edit_cache.dir
+/home/gary/garyData/fc/garyFC/build/CMakeFiles/rebuild_cache.dir
+/home/gary/garyData/fc/garyFC/build/CMakeFiles/demo.dir
+/home/gary/garyData/fc/garyFC/build/AP_Math/CMakeFiles/edit_cache.dir
+/home/gary/garyData/fc/garyFC/build/AP_Math/CMakeFiles/rebuild_cache.dir
+/home/gary/garyData/fc/garyFC/build/AP_Math/CMakeFiles/GaryMath.dir
+/home/gary/garyData/fc/garyFC/build/Filter/CMakeFiles/edit_cache.dir
+/home/gary/garyData/fc/garyFC/build/Filter/CMakeFiles/rebuild_cache.dir
+/home/gary/garyData/fc/garyFC/build/Filter/CMakeFiles/GaryFilter.dir

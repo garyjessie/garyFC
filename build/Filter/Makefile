@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/gary/garyData/fc/garyFC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gary/garyData/fc/garyFC
+CMAKE_BINARY_DIR = /home/gary/garyData/fc/garyFC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gary/garyData/fc/garyFC && $(CMAKE_COMMAND) -E cmake_progress_start /home/gary/garyData/fc/garyFC/CMakeFiles /home/gary/garyData/fc/garyFC/Filter/CMakeFiles/progress.marks
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f CMakeFiles/Makefile2 Filter/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gary/garyData/fc/garyFC/CMakeFiles 0
+	cd /home/gary/garyData/fc/garyFC/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gary/garyData/fc/garyFC/build/CMakeFiles /home/gary/garyData/fc/garyFC/build/Filter/CMakeFiles/progress.marks
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f CMakeFiles/Makefile2 Filter/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gary/garyData/fc/garyFC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f CMakeFiles/Makefile2 Filter/clean
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f CMakeFiles/Makefile2 Filter/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f CMakeFiles/Makefile2 Filter/preinstall
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f CMakeFiles/Makefile2 Filter/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f CMakeFiles/Makefile2 Filter/preinstall
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f CMakeFiles/Makefile2 Filter/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gary/garyData/fc/garyFC && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gary/garyData/fc/garyFC/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Filter/CMakeFiles/GaryFilter.dir/rule:
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f CMakeFiles/Makefile2 Filter/CMakeFiles/GaryFilter.dir/rule
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f CMakeFiles/Makefile2 Filter/CMakeFiles/GaryFilter.dir/rule
 .PHONY : Filter/CMakeFiles/GaryFilter.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ GaryFilter: Filter/CMakeFiles/GaryFilter.dir/rule
 
 # fast build rule for target.
 GaryFilter/fast:
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/build
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/build
 .PHONY : GaryFilter/fast
 
 DerivativeFilter.o: DerivativeFilter.cpp.o
@@ -131,7 +131,7 @@ DerivativeFilter.o: DerivativeFilter.cpp.o
 
 # target to build an object file
 DerivativeFilter.cpp.o:
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/DerivativeFilter.cpp.o
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/DerivativeFilter.cpp.o
 .PHONY : DerivativeFilter.cpp.o
 
 DerivativeFilter.i: DerivativeFilter.cpp.i
@@ -140,7 +140,7 @@ DerivativeFilter.i: DerivativeFilter.cpp.i
 
 # target to preprocess a source file
 DerivativeFilter.cpp.i:
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/DerivativeFilter.cpp.i
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/DerivativeFilter.cpp.i
 .PHONY : DerivativeFilter.cpp.i
 
 DerivativeFilter.s: DerivativeFilter.cpp.s
@@ -149,7 +149,7 @@ DerivativeFilter.s: DerivativeFilter.cpp.s
 
 # target to generate assembly for a file
 DerivativeFilter.cpp.s:
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/DerivativeFilter.cpp.s
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/DerivativeFilter.cpp.s
 .PHONY : DerivativeFilter.cpp.s
 
 LowPassFilter.o: LowPassFilter.cpp.o
@@ -158,7 +158,7 @@ LowPassFilter.o: LowPassFilter.cpp.o
 
 # target to build an object file
 LowPassFilter.cpp.o:
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/LowPassFilter.cpp.o
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/LowPassFilter.cpp.o
 .PHONY : LowPassFilter.cpp.o
 
 LowPassFilter.i: LowPassFilter.cpp.i
@@ -167,7 +167,7 @@ LowPassFilter.i: LowPassFilter.cpp.i
 
 # target to preprocess a source file
 LowPassFilter.cpp.i:
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/LowPassFilter.cpp.i
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/LowPassFilter.cpp.i
 .PHONY : LowPassFilter.cpp.i
 
 LowPassFilter.s: LowPassFilter.cpp.s
@@ -176,7 +176,7 @@ LowPassFilter.s: LowPassFilter.cpp.s
 
 # target to generate assembly for a file
 LowPassFilter.cpp.s:
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/LowPassFilter.cpp.s
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/LowPassFilter.cpp.s
 .PHONY : LowPassFilter.cpp.s
 
 LowPassFilter2p.o: LowPassFilter2p.cpp.o
@@ -185,7 +185,7 @@ LowPassFilter2p.o: LowPassFilter2p.cpp.o
 
 # target to build an object file
 LowPassFilter2p.cpp.o:
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/LowPassFilter2p.cpp.o
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/LowPassFilter2p.cpp.o
 .PHONY : LowPassFilter2p.cpp.o
 
 LowPassFilter2p.i: LowPassFilter2p.cpp.i
@@ -194,7 +194,7 @@ LowPassFilter2p.i: LowPassFilter2p.cpp.i
 
 # target to preprocess a source file
 LowPassFilter2p.cpp.i:
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/LowPassFilter2p.cpp.i
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/LowPassFilter2p.cpp.i
 .PHONY : LowPassFilter2p.cpp.i
 
 LowPassFilter2p.s: LowPassFilter2p.cpp.s
@@ -203,7 +203,7 @@ LowPassFilter2p.s: LowPassFilter2p.cpp.s
 
 # target to generate assembly for a file
 LowPassFilter2p.cpp.s:
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/LowPassFilter2p.cpp.s
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/LowPassFilter2p.cpp.s
 .PHONY : LowPassFilter2p.cpp.s
 
 NotchFilter.o: NotchFilter.cpp.o
@@ -212,7 +212,7 @@ NotchFilter.o: NotchFilter.cpp.o
 
 # target to build an object file
 NotchFilter.cpp.o:
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/NotchFilter.cpp.o
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/NotchFilter.cpp.o
 .PHONY : NotchFilter.cpp.o
 
 NotchFilter.i: NotchFilter.cpp.i
@@ -221,7 +221,7 @@ NotchFilter.i: NotchFilter.cpp.i
 
 # target to preprocess a source file
 NotchFilter.cpp.i:
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/NotchFilter.cpp.i
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/NotchFilter.cpp.i
 .PHONY : NotchFilter.cpp.i
 
 NotchFilter.s: NotchFilter.cpp.s
@@ -230,7 +230,7 @@ NotchFilter.s: NotchFilter.cpp.s
 
 # target to generate assembly for a file
 NotchFilter.cpp.s:
-	cd /home/gary/garyData/fc/garyFC && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/NotchFilter.cpp.s
+	cd /home/gary/garyData/fc/garyFC/build && $(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/NotchFilter.cpp.s
 .PHONY : NotchFilter.cpp.s
 
 # Help Target
@@ -265,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gary/garyData/fc/garyFC && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gary/garyData/fc/garyFC/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
