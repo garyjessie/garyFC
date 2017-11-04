@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/GaryFilter.dir/LowPassFilter2p.cpp.o"
-  "CMakeFiles/GaryFilter.dir/LowPassFilter.cpp.o"
   "CMakeFiles/GaryFilter.dir/NotchFilter.cpp.o"
   "CMakeFiles/GaryFilter.dir/DerivativeFilter.cpp.o"
+  "CMakeFiles/GaryFilter.dir/LowPassFilter.cpp.o"
   "libGaryFilter.pdb"
   "libGaryFilter.so"
 )

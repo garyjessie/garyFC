@@ -13,15 +13,15 @@ Filter/CMakeFiles/GaryFilter.dir/DerivativeFilter.cpp.o
  ../Filter/../AP_Math/rotations.h
  ../Filter/../AP_Math/vector2.h
  ../Filter/../AP_Math/vector3.h
- /home/gary/garyData/fc/garyFC/Filter/AverageFilter.h
- /home/gary/garyData/fc/garyFC/Filter/Butter.h
- /home/gary/garyData/fc/garyFC/Filter/DerivativeFilter.cpp
- /home/gary/garyData/fc/garyFC/Filter/DerivativeFilter.h
- /home/gary/garyData/fc/garyFC/Filter/Filter.h
- /home/gary/garyData/fc/garyFC/Filter/FilterClass.h
- /home/gary/garyData/fc/garyFC/Filter/FilterWithBuffer.h
- /home/gary/garyData/fc/garyFC/Filter/LowPassFilter.h
- /home/gary/garyData/fc/garyFC/Filter/ModeFilter.h
+ /home/gdu-gary/garyData/fc/garyFC/Filter/AverageFilter.h
+ /home/gdu-gary/garyData/fc/garyFC/Filter/Butter.h
+ /home/gdu-gary/garyData/fc/garyFC/Filter/DerivativeFilter.cpp
+ /home/gdu-gary/garyData/fc/garyFC/Filter/DerivativeFilter.h
+ /home/gdu-gary/garyData/fc/garyFC/Filter/Filter.h
+ /home/gdu-gary/garyData/fc/garyFC/Filter/FilterClass.h
+ /home/gdu-gary/garyData/fc/garyFC/Filter/FilterWithBuffer.h
+ /home/gdu-gary/garyData/fc/garyFC/Filter/LowPassFilter.h
+ /home/gdu-gary/garyData/fc/garyFC/Filter/ModeFilter.h
 Filter/CMakeFiles/GaryFilter.dir/LowPassFilter.cpp.o
  ../Filter/../AP_Math/AP_Common.h
  ../Filter/../AP_Math/AP_Math.h
@@ -34,9 +34,9 @@ Filter/CMakeFiles/GaryFilter.dir/LowPassFilter.cpp.o
  ../Filter/../AP_Math/rotations.h
  ../Filter/../AP_Math/vector2.h
  ../Filter/../AP_Math/vector3.h
- /home/gary/garyData/fc/garyFC/Filter/FilterClass.h
- /home/gary/garyData/fc/garyFC/Filter/LowPassFilter.cpp
- /home/gary/garyData/fc/garyFC/Filter/LowPassFilter.h
+ /home/gdu-gary/garyData/fc/garyFC/Filter/FilterClass.h
+ /home/gdu-gary/garyData/fc/garyFC/Filter/LowPassFilter.cpp
+ /home/gdu-gary/garyData/fc/garyFC/Filter/LowPassFilter.h
 Filter/CMakeFiles/GaryFilter.dir/LowPassFilter2p.cpp.o
  ../Filter/../AP_Math/AP_Common.h
  ../Filter/../AP_Math/AP_Math.h
@@ -49,8 +49,8 @@ Filter/CMakeFiles/GaryFilter.dir/LowPassFilter2p.cpp.o
  ../Filter/../AP_Math/rotations.h
  ../Filter/../AP_Math/vector2.h
  ../Filter/../AP_Math/vector3.h
- /home/gary/garyData/fc/garyFC/Filter/LowPassFilter2p.cpp
- /home/gary/garyData/fc/garyFC/Filter/LowPassFilter2p.h
+ /home/gdu-gary/garyData/fc/garyFC/Filter/LowPassFilter2p.cpp
+ /home/gdu-gary/garyData/fc/garyFC/Filter/LowPassFilter2p.h
 Filter/CMakeFiles/GaryFilter.dir/NotchFilter.cpp.o
  ../Filter/../AP_Math/AP_Common.h
  ../Filter/../AP_Math/AP_Math.h
@@ -63,5 +63,5 @@ Filter/CMakeFiles/GaryFilter.dir/NotchFilter.cpp.o
  ../Filter/../AP_Math/rotations.h
  ../Filter/../AP_Math/vector2.h
  ../Filter/../AP_Math/vector3.h
- /home/gary/garyData/fc/garyFC/Filter/NotchFilter.cpp
- /home/gary/garyData/fc/garyFC/Filter/NotchFilter.h
+ /home/gdu-gary/garyData/fc/garyFC/Filter/NotchFilter.cpp
+ /home/gdu-gary/garyData/fc/garyFC/Filter/NotchFilter.h

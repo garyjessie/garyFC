@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdu-gary/garyData/fc/garyFC/build/CMakeFiles /home/gdu-gary/garyData/fc/garyFC/build/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/gdu-gary/garyData/fc/garyFC/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gdu-gary/garyData/fc/garyFC/build/CMakeFiles /home/gdu-gary/garyData/fc/garyFC/build/AP_HAL/CMakeFiles/progress.marks
+	cd /home/gdu-gary/garyData/fc/garyFC/build && $(MAKE) -f CMakeFiles/Makefile2 AP_HAL/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdu-gary/garyData/fc/garyFC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/gdu-gary/garyData/fc/garyFC/build && $(MAKE) -f CMakeFiles/Makefile2 AP_HAL/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,97 +97,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/gdu-gary/garyData/fc/garyFC/build && $(MAKE) -f CMakeFiles/Makefile2 AP_HAL/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/gdu-gary/garyData/fc/garyFC/build && $(MAKE) -f CMakeFiles/Makefile2 AP_HAL/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gdu-gary/garyData/fc/garyFC/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named demo
+# Convenience name for target.
+AP_HAL/CMakeFiles/GarySystem.dir/rule:
+	cd /home/gdu-gary/garyData/fc/garyFC/build && $(MAKE) -f CMakeFiles/Makefile2 AP_HAL/CMakeFiles/GarySystem.dir/rule
+.PHONY : AP_HAL/CMakeFiles/GarySystem.dir/rule
 
-# Build rule for target.
-demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 demo
-.PHONY : demo
+# Convenience name for target.
+GarySystem: AP_HAL/CMakeFiles/GarySystem.dir/rule
 
-# fast build rule for target.
-demo/fast:
-	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
-.PHONY : demo/fast
-
-#=============================================================================
-# Target rules for targets named GaryMath
-
-# Build rule for target.
-GaryMath: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 GaryMath
-.PHONY : GaryMath
-
-# fast build rule for target.
-GaryMath/fast:
-	$(MAKE) -f AP_Math/CMakeFiles/GaryMath.dir/build.make AP_Math/CMakeFiles/GaryMath.dir/build
-.PHONY : GaryMath/fast
-
-#=============================================================================
-# Target rules for targets named GaryFilter
-
-# Build rule for target.
-GaryFilter: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 GaryFilter
-.PHONY : GaryFilter
-
-# fast build rule for target.
-GaryFilter/fast:
-	$(MAKE) -f Filter/CMakeFiles/GaryFilter.dir/build.make Filter/CMakeFiles/GaryFilter.dir/build
-.PHONY : GaryFilter/fast
-
-#=============================================================================
-# Target rules for targets named GarySystem
-
-# Build rule for target.
-GarySystem: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 GarySystem
 .PHONY : GarySystem
 
 # fast build rule for target.
 GarySystem/fast:
-	$(MAKE) -f AP_HAL/CMakeFiles/GarySystem.dir/build.make AP_HAL/CMakeFiles/GarySystem.dir/build
+	cd /home/gdu-gary/garyData/fc/garyFC/build && $(MAKE) -f AP_HAL/CMakeFiles/GarySystem.dir/build.make AP_HAL/CMakeFiles/GarySystem.dir/build
 .PHONY : GarySystem/fast
 
-demo.o: demo.cpp.o
+system.o: system.cpp.o
 
-.PHONY : demo.o
+.PHONY : system.o
 
 # target to build an object file
-demo.cpp.o:
-	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/demo.cpp.o
-.PHONY : demo.cpp.o
+system.cpp.o:
+	cd /home/gdu-gary/garyData/fc/garyFC/build && $(MAKE) -f AP_HAL/CMakeFiles/GarySystem.dir/build.make AP_HAL/CMakeFiles/GarySystem.dir/system.cpp.o
+.PHONY : system.cpp.o
 
-demo.i: demo.cpp.i
+system.i: system.cpp.i
 
-.PHONY : demo.i
+.PHONY : system.i
 
 # target to preprocess a source file
-demo.cpp.i:
-	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/demo.cpp.i
-.PHONY : demo.cpp.i
+system.cpp.i:
+	cd /home/gdu-gary/garyData/fc/garyFC/build && $(MAKE) -f AP_HAL/CMakeFiles/GarySystem.dir/build.make AP_HAL/CMakeFiles/GarySystem.dir/system.cpp.i
+.PHONY : system.cpp.i
 
-demo.s: demo.cpp.s
+system.s: system.cpp.s
 
-.PHONY : demo.s
+.PHONY : system.s
 
 # target to generate assembly for a file
-demo.cpp.s:
-	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/demo.cpp.s
-.PHONY : demo.cpp.s
+system.cpp.s:
+	cd /home/gdu-gary/garyData/fc/garyFC/build && $(MAKE) -f AP_HAL/CMakeFiles/GarySystem.dir/build.make AP_HAL/CMakeFiles/GarySystem.dir/system.cpp.s
+.PHONY : system.cpp.s
 
 # Help Target
 help:
@@ -197,13 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... demo"
-	@echo "... GaryMath"
-	@echo "... GaryFilter"
 	@echo "... GarySystem"
-	@echo "... demo.o"
-	@echo "... demo.i"
-	@echo "... demo.s"
+	@echo "... system.o"
+	@echo "... system.i"
+	@echo "... system.s"
 .PHONY : help
 
 
@@ -215,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gdu-gary/garyData/fc/garyFC/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

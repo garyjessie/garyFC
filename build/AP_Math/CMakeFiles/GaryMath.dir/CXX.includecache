@@ -6,33 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/gary/garyData/fc/garyFC/AP_Math/AP_Common.cpp
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_Common.cpp
 AP_Common.h
-/home/gary/garyData/fc/garyFC/AP_Math/AP_Common.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_Common.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/AP_Common.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_Common.h
 stdint.h
 -
 stdlib.h
 -
 
-/home/gary/garyData/fc/garyFC/AP_Math/AP_GeodesicGrid.cpp
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_GeodesicGrid.cpp
 assert.h
 -
 AP_GeodesicGrid.h
-/home/gary/garyData/fc/garyFC/AP_Math/AP_GeodesicGrid.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_GeodesicGrid.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/AP_GeodesicGrid.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_GeodesicGrid.h
 AP_Math.h
-/home/gary/garyData/fc/garyFC/AP_Math/AP_Math.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_Math.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/AP_Math.cpp
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_Math.cpp
 AP_Math.h
-/home/gary/garyData/fc/garyFC/AP_Math/AP_Math.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_Math.h
 float.h
 -
 
-/home/gary/garyData/fc/garyFC/AP_Math/AP_Math.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_Math.h
 cmath
 -
 limits
@@ -42,125 +42,125 @@ stdint.h
 type_traits
 -
 AP_Common.h
-/home/gary/garyData/fc/garyFC/AP_Math/AP_Common.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_Common.h
 definitions.h
-/home/gary/garyData/fc/garyFC/AP_Math/definitions.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/definitions.h
 edc.h
-/home/gary/garyData/fc/garyFC/AP_Math/edc.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/edc.h
 location.h
-/home/gary/garyData/fc/garyFC/AP_Math/location.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/location.h
 matrix3.h
-/home/gary/garyData/fc/garyFC/AP_Math/matrix3.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/matrix3.h
 polygon.h
-/home/gary/garyData/fc/garyFC/AP_Math/polygon.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/polygon.h
 quaternion.h
-/home/gary/garyData/fc/garyFC/AP_Math/quaternion.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/quaternion.h
 rotations.h
-/home/gary/garyData/fc/garyFC/AP_Math/rotations.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/rotations.h
 vector2.h
-/home/gary/garyData/fc/garyFC/AP_Math/vector2.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/vector2.h
 vector3.h
-/home/gary/garyData/fc/garyFC/AP_Math/vector3.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/vector3.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/crc.cpp
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/crc.cpp
 stdint.h
 -
 crc.h
-/home/gary/garyData/fc/garyFC/AP_Math/crc.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/crc.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/crc.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/crc.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/definitions.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/definitions.h
 cmath
 -
 
-/home/gary/garyData/fc/garyFC/AP_Math/edc.cpp
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/edc.cpp
 edc.h
-/home/gary/garyData/fc/garyFC/AP_Math/edc.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/edc.h
 inttypes.h
 -
 
-/home/gary/garyData/fc/garyFC/AP_Math/edc.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/edc.h
 inttypes.h
 -
 
-/home/gary/garyData/fc/garyFC/AP_Math/location.cpp
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/location.cpp
 stdlib.h
 -
 AP_Math.h
-/home/gary/garyData/fc/garyFC/AP_Math/AP_Math.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_Math.h
 location.h
-/home/gary/garyData/fc/garyFC/AP_Math/location.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/location.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/location.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/location.h
 inttypes.h
 -
 AP_Common.h
-/home/gary/garyData/fc/garyFC/AP_Math/AP_Common.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_Common.h
 vector2.h
-/home/gary/garyData/fc/garyFC/AP_Math/vector2.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/vector2.h
 vector3.h
-/home/gary/garyData/fc/garyFC/AP_Math/vector3.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/vector3.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/matrix3.cpp
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/matrix3.cpp
 AP_Math.h
-/home/gary/garyData/fc/garyFC/AP_Math/AP_Math.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_Math.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/matrix3.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/matrix3.h
 vector3.h
-/home/gary/garyData/fc/garyFC/AP_Math/vector3.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/vector3.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/matrixN.cpp
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/matrixN.cpp
 matrixN.h
-/home/gary/garyData/fc/garyFC/AP_Math/matrixN.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/matrixN.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/matrixN.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/matrixN.h
 math.h
-/home/gary/garyData/fc/garyFC/AP_Math/math.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/math.h
 stdint.h
 -
 vectorN.h
-/home/gary/garyData/fc/garyFC/AP_Math/vectorN.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/vectorN.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/matrix_alg.cpp
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/matrix_alg.cpp
 AP_Math.h
-/home/gary/garyData/fc/garyFC/AP_Math/AP_Math.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_Math.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/polygon.cpp
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/polygon.cpp
 AP_Math.h
-/home/gary/garyData/fc/garyFC/AP_Math/AP_Math.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_Math.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/polygon.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/polygon.h
 vector2.h
-/home/gary/garyData/fc/garyFC/AP_Math/vector2.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/vector2.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/quaternion.cpp
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/quaternion.cpp
 AP_Math.h
-/home/gary/garyData/fc/garyFC/AP_Math/AP_Math.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_Math.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/quaternion.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/quaternion.h
 cmath
 -
 assert.h
 -
 
-/home/gary/garyData/fc/garyFC/AP_Math/rotations.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/rotations.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/vector2.cpp
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/vector2.cpp
 AP_Math.h
-/home/gary/garyData/fc/garyFC/AP_Math/AP_Math.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_Math.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/vector2.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/vector2.h
 cmath
 -
 float.h
 -
 
-/home/gary/garyData/fc/garyFC/AP_Math/vector3.cpp
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/vector3.cpp
 AP_Math.h
-/home/gary/garyData/fc/garyFC/AP_Math/AP_Math.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/AP_Math.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/vector3.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/vector3.h
 cmath
 -
 float.h
@@ -170,15 +170,15 @@ string.h
 assert.h
 -
 rotations.h
-/home/gary/garyData/fc/garyFC/AP_Math/rotations.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/rotations.h
 
-/home/gary/garyData/fc/garyFC/AP_Math/vectorN.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/vectorN.h
 cmath
 -
 string.h
 -
 matrixN.h
-/home/gary/garyData/fc/garyFC/AP_Math/matrixN.h
+/home/gdu-gary/garyData/fc/garyFC/AP_Math/matrixN.h
 assert.h
 -
 

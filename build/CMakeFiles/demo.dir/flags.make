@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/gary/garyData/fc/garyFC/./AP_Math -I/home/gary/garyData/fc/garyFC/./Filter 
+CXX_INCLUDES = -I/home/gdu-gary/garyData/fc/garyFC/./AP_Math -I/home/gdu-gary/garyData/fc/garyFC/./Filter -I/home/gdu-gary/garyData/fc/garyFC/./AP_HAL 
 

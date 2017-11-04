@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "../AP_HAL/CMakeLists.txt"
   "../AP_Math/CMakeLists.txt"
   "../CMakeLists.txt"
   "../Filter/CMakeLists.txt"
@@ -111,6 +112,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "AP_Math/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Filter/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "AP_HAL/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -118,4 +120,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/demo.dir/DependInfo.cmake"
   "AP_Math/CMakeFiles/GaryMath.dir/DependInfo.cmake"
   "Filter/CMakeFiles/GaryFilter.dir/DependInfo.cmake"
+  "AP_HAL/CMakeFiles/GarySystem.dir/DependInfo.cmake"
   )

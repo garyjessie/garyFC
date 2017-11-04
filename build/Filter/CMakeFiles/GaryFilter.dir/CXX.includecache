@@ -94,91 +94,91 @@ assert.h
 rotations.h
 ../Filter/../AP_Math/rotations.h
 
-/home/gary/garyData/fc/garyFC/Filter/AverageFilter.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/AverageFilter.h
 FilterClass.h
-/home/gary/garyData/fc/garyFC/Filter/FilterClass.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/FilterClass.h
 FilterWithBuffer.h
-/home/gary/garyData/fc/garyFC/Filter/FilterWithBuffer.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/FilterWithBuffer.h
 
-/home/gary/garyData/fc/garyFC/Filter/Butter.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/Butter.h
 
-/home/gary/garyData/fc/garyFC/Filter/DerivativeFilter.cpp
+/home/gdu-gary/garyData/fc/garyFC/Filter/DerivativeFilter.cpp
 inttypes.h
 -
 AP_Math.h
-/home/gary/garyData/fc/garyFC/Filter/AP_Math.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/AP_Math.h
 Filter.h
-/home/gary/garyData/fc/garyFC/Filter/Filter.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/Filter.h
 DerivativeFilter.h
-/home/gary/garyData/fc/garyFC/Filter/DerivativeFilter.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/DerivativeFilter.h
 
-/home/gary/garyData/fc/garyFC/Filter/DerivativeFilter.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/DerivativeFilter.h
 FilterClass.h
-/home/gary/garyData/fc/garyFC/Filter/FilterClass.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/FilterClass.h
 FilterWithBuffer.h
-/home/gary/garyData/fc/garyFC/Filter/FilterWithBuffer.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/FilterWithBuffer.h
 
-/home/gary/garyData/fc/garyFC/Filter/Filter.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/Filter.h
 FilterClass.h
-/home/gary/garyData/fc/garyFC/Filter/FilterClass.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/FilterClass.h
 AverageFilter.h
-/home/gary/garyData/fc/garyFC/Filter/AverageFilter.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/AverageFilter.h
 DerivativeFilter.h
-/home/gary/garyData/fc/garyFC/Filter/DerivativeFilter.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/DerivativeFilter.h
 FilterWithBuffer.h
-/home/gary/garyData/fc/garyFC/Filter/FilterWithBuffer.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/FilterWithBuffer.h
 LowPassFilter.h
-/home/gary/garyData/fc/garyFC/Filter/LowPassFilter.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/LowPassFilter.h
 ModeFilter.h
-/home/gary/garyData/fc/garyFC/Filter/ModeFilter.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/ModeFilter.h
 Butter.h
-/home/gary/garyData/fc/garyFC/Filter/Butter.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/Butter.h
 
-/home/gary/garyData/fc/garyFC/Filter/FilterClass.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/FilterClass.h
 inttypes.h
 -
 
-/home/gary/garyData/fc/garyFC/Filter/FilterWithBuffer.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/FilterWithBuffer.h
 FilterClass.h
-/home/gary/garyData/fc/garyFC/Filter/FilterClass.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/FilterClass.h
 
-/home/gary/garyData/fc/garyFC/Filter/LowPassFilter.cpp
+/home/gdu-gary/garyData/fc/garyFC/Filter/LowPassFilter.cpp
 LowPassFilter.h
-/home/gary/garyData/fc/garyFC/Filter/LowPassFilter.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/LowPassFilter.h
 
-/home/gary/garyData/fc/garyFC/Filter/LowPassFilter.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/LowPassFilter.h
 AP_Math.h
-/home/gary/garyData/fc/garyFC/Filter/AP_Math.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/AP_Math.h
 FilterClass.h
-/home/gary/garyData/fc/garyFC/Filter/FilterClass.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/FilterClass.h
 
-/home/gary/garyData/fc/garyFC/Filter/LowPassFilter2p.cpp
+/home/gdu-gary/garyData/fc/garyFC/Filter/LowPassFilter2p.cpp
 LowPassFilter2p.h
-/home/gary/garyData/fc/garyFC/Filter/LowPassFilter2p.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/LowPassFilter2p.h
 
-/home/gary/garyData/fc/garyFC/Filter/LowPassFilter2p.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/LowPassFilter2p.h
 AP_Math.h
-/home/gary/garyData/fc/garyFC/Filter/AP_Math.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/AP_Math.h
 cmath
 -
 inttypes.h
 -
 
-/home/gary/garyData/fc/garyFC/Filter/ModeFilter.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/ModeFilter.h
 inttypes.h
 -
 FilterClass.h
-/home/gary/garyData/fc/garyFC/Filter/FilterClass.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/FilterClass.h
 FilterWithBuffer.h
-/home/gary/garyData/fc/garyFC/Filter/FilterWithBuffer.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/FilterWithBuffer.h
 
-/home/gary/garyData/fc/garyFC/Filter/NotchFilter.cpp
+/home/gdu-gary/garyData/fc/garyFC/Filter/NotchFilter.cpp
 NotchFilter.h
-/home/gary/garyData/fc/garyFC/Filter/NotchFilter.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/NotchFilter.h
 
-/home/gary/garyData/fc/garyFC/Filter/NotchFilter.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/NotchFilter.h
 AP_Math.h
-/home/gary/garyData/fc/garyFC/Filter/AP_Math.h
+/home/gdu-gary/garyData/fc/garyFC/Filter/AP_Math.h
 cmath
 -
 inttypes.h

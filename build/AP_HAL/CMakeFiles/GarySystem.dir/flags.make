@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS = -fPIC   -std=c++11
 
-CXX_DEFINES = -DGaryFilter_EXPORTS
+CXX_DEFINES = -DGarySystem_EXPORTS
 
-CXX_INCLUDES = -I/home/gdu-gary/garyData/fc/garyFC/Filter/../AP_Math 
+CXX_INCLUDES = 
 

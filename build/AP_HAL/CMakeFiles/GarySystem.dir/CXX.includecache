@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gdu-gary/garyData/fc/garyFC/AP_HAL/system.cpp
+stdarg.h
+-
+stdio.h
+-
+system.h
+/home/gdu-gary/garyData/fc/garyFC/AP_HAL/system.h
+
+/home/gdu-gary/garyData/fc/garyFC/AP_HAL/system.h
+stdint.h
+-
+

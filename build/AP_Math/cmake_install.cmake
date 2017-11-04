@@ -1,4 +1,4 @@
-# Install script for directory: /home/gary/garyData/fc/garyFC/AP_Math
+# Install script for directory: /home/gdu-gary/garyData/fc/garyFC/AP_Math
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

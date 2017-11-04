@@ -1,4 +1,4 @@
-# Install script for directory: /home/gdu-gary/garyData/fc/garyFC/Filter
+# Install script for directory: /home/gdu-gary/garyData/fc/garyFC/AP_HAL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
