@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/demo.dir/demo.cpp.o  -o demo -rdynamic Filter/libGaryFilter.so AP_HAL/libGarySystem.so AP_Math/libGaryMath.so -Wl,-rpath,/home/gdu-gary/garyData/fc/garyFC/build/Filter:/home/gdu-gary/garyData/fc/garyFC/build/AP_HAL:/home/gdu-gary/garyData/fc/garyFC/build/AP_Math 
